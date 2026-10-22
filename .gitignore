@@ -1,0 +1,17 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# EEG recordings and generated outputs (keep data out of the repo)
+generic_dataset/
+data/
+features/
+*.gdf
+*.edf
+*.bdf
+*.fif
+*.set
+*.vhdr
+*.npz

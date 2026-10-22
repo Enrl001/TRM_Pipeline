@@ -1,0 +1,11 @@
+mne>=1.8
+mne-icalabel>=0.7
+numpy
+scipy
+pandas
+# needed later for the models (steps 2 and 3)
+scikit-learn
+mlxtend
+bctpy
+torch
+torch_geometric
