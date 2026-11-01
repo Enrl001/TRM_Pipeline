@@ -1,0 +1,75 @@
+{
+  "conn": "wpli",
+  "label_col": "label",
+  "classes": [
+    0,
+    1
+  ],
+  "tree_order": [
+    0,
+    1
+  ],
+  "graph_version": "cum90",
+  "rank_interval": [
+    0.0,
+    0.9
+  ],
+  "validation": "paper-split",
+  "pooled_window": {
+    "accuracy": 0.7260504201680672,
+    "balanced_accuracy": 0.73109243697479,
+    "sensitivity": 0.7058823529411765,
+    "specificity": 0.7563025210084033,
+    "auc": 0.8019325377209707
+  },
+  "pooled_subject": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "auc": 1.0
+  },
+  "per_fold_mean_sd": {
+    "window_accuracy": {
+      "mean": 0.7260504201680672,
+      "sd": 0.0
+    },
+    "window_balanced_accuracy": {
+      "mean": 0.73109243697479,
+      "sd": 0.0
+    },
+    "window_sensitivity": {
+      "mean": 0.7058823529411765,
+      "sd": 0.0
+    },
+    "window_specificity": {
+      "mean": 0.7563025210084033,
+      "sd": 0.0
+    },
+    "window_auc": {
+      "mean": 0.8019325377209707,
+      "sd": 0.0
+    },
+    "subject_accuracy": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "subject_balanced_accuracy": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "subject_sensitivity": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "subject_specificity": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "subject_auc": {
+      "mean": 1.0,
+      "sd": 0.0
+    }
+  },
+  "runtime_s": 3.7
+}

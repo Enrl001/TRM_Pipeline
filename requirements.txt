@@ -1,8 +1,10 @@
 mne>=1.8
 mne-icalabel>=0.7
+onnxruntime  # ICLabel backend
 numpy
 scipy
 pandas
+matplotlib
 # needed later for the models (steps 2 and 3)
 scikit-learn
 mlxtend

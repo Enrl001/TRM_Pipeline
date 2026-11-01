@@ -1,0 +1,81 @@
+{
+  "conn": "pdc",
+  "label_col": "label_3class",
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "tree_order": [
+    0,
+    2,
+    1
+  ],
+  "graph_version": "cum90",
+  "rank_interval": [
+    0.0,
+    0.9
+  ],
+  "validation": "stratified group 5-fold",
+  "pooled_window": {
+    "accuracy": 0.47012138188608776,
+    "balanced_accuracy": 0.4701213818860878,
+    "sensitivity": 0.4701213818860878,
+    "specificity": 0.7350606909430439
+  },
+  "pooled_subject": {
+    "accuracy": 0.4444444444444444,
+    "balanced_accuracy": 0.4444444444444444,
+    "sensitivity": 0.4444444444444444,
+    "specificity": 0.7222222222222222
+  },
+  "per_fold_mean_sd": {
+    "window_accuracy": {
+      "mean": 0.47745098039215683,
+      "sd": 0.09072668707930226
+    },
+    "window_balanced_accuracy": {
+      "mean": 0.48375350140056017,
+      "sd": 0.06210501597521849
+    },
+    "window_sensitivity": {
+      "mean": 0.48375350140056017,
+      "sd": 0.06210501597521849
+    },
+    "window_specificity": {
+      "mean": 0.7371615312791783,
+      "sd": 0.04358395998009367
+    },
+    "subject_accuracy": {
+      "mean": 0.45,
+      "sd": 0.24008100484813225
+    },
+    "subject_balanced_accuracy": {
+      "mean": 0.4666666666666667,
+      "sd": 0.18257418583505536
+    },
+    "subject_sensitivity": {
+      "mean": 0.4666666666666667,
+      "sd": 0.18257418583505536
+    },
+    "subject_specificity": {
+      "mean": 0.711111111111111,
+      "sd": 0.11385500851066224
+    }
+  },
+  "permutation": {
+    "n_perm": 100,
+    "labels_shuffled_at": "subject level",
+    "subject_balanced_accuracy": {
+      "observed": 0.4444444444444444,
+      "null_mean": 0.32166666666666666,
+      "p": 0.21782178217821782
+    },
+    "window_balanced_accuracy": {
+      "observed": 0.4701213818860878,
+      "null_mean": 0.3283380018674136,
+      "p": 0.009900990099009901
+    }
+  },
+  "runtime_s": 1144.6
+}

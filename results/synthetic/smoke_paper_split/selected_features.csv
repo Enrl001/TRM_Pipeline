@@ -1,0 +1,14 @@
+node,peel,feature,count,fraction_of_folds
+0,1,theta_clustering_Cz,1,1.0
+0,1,theta_clustering_F4,1,1.0
+0,1,theta_clustering_Fp1,1,1.0
+0,1,theta_clustering_Fz,1,1.0
+0,1,theta_clustering_O1,1,1.0
+0,1,theta_clustering_P3,1,1.0
+0,1,theta_clustering_P4,1,1.0
+0,1,theta_clustering_Pz,1,1.0
+0,1,theta_local_eff_C3,1,1.0
+0,1,theta_local_eff_Fz,1,1.0
+0,1,theta_local_eff_P3,1,1.0
+0,1,theta_local_eff_P4,1,1.0
+0,1,theta_local_eff_Pz,1,1.0

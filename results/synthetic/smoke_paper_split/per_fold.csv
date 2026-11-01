@@ -1,0 +1,2 @@
+fold,n_test_subjects,window_accuracy,window_balanced_accuracy,window_sensitivity,window_specificity,window_auc,subject_accuracy,subject_balanced_accuracy,subject_sensitivity,subject_specificity,subject_auc,C
+0,5,0.7260504201680672,0.73109243697479,0.7058823529411765,0.7563025210084033,0.8019325377209707,1.0,1.0,1.0,1.0,1.0,1.0

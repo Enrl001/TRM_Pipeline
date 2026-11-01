@@ -1,0 +1,94 @@
+{
+  "conn": "pdc",
+  "label_col": "label",
+  "classes": [
+    0,
+    1
+  ],
+  "tree_order": [
+    0,
+    1
+  ],
+  "graph_version": "cum90",
+  "rank_interval": [
+    0.0,
+    0.9
+  ],
+  "validation": "stratified group 5-fold",
+  "pooled_window": {
+    "accuracy": 0.696078431372549,
+    "balanced_accuracy": 0.6887254901960784,
+    "sensitivity": 0.7107843137254902,
+    "specificity": 0.6666666666666666,
+    "auc": 0.7429305055355475
+  },
+  "pooled_subject": {
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.8333333333333334,
+    "sensitivity": 0.8333333333333334,
+    "specificity": 0.8333333333333334,
+    "auc": 0.888888888888889
+  },
+  "per_fold_mean_sd": {
+    "window_accuracy": {
+      "mean": 0.7036414565826331,
+      "sd": 0.11477054811844255
+    },
+    "window_balanced_accuracy": {
+      "mean": 0.6931372549019608,
+      "sd": 0.1269492154527421
+    },
+    "window_sensitivity": {
+      "mean": 0.7282913165266106,
+      "sd": 0.13189455696099397
+    },
+    "window_specificity": {
+      "mean": 0.6579831932773109,
+      "sd": 0.20311117329755854
+    },
+    "window_auc": {
+      "mean": 0.7542464044441306,
+      "sd": 0.13084131270678334
+    },
+    "subject_accuracy": {
+      "mean": 0.85,
+      "sd": 0.22360679774997896
+    },
+    "subject_balanced_accuracy": {
+      "mean": 0.8333333333333333,
+      "sd": 0.23570226039551584
+    },
+    "subject_sensitivity": {
+      "mean": 0.8666666666666666,
+      "sd": 0.2981423969999719
+    },
+    "subject_specificity": {
+      "mean": 0.8,
+      "sd": 0.44721359549995804
+    },
+    "subject_auc": {
+      "mean": 0.9333333333333332,
+      "sd": 0.149071198499986
+    }
+  },
+  "permutation": {
+    "n_perm": 100,
+    "labels_shuffled_at": "subject level",
+    "subject_balanced_accuracy": {
+      "observed": 0.8333333333333334,
+      "null_mean": 0.4895833333333334,
+      "p": 0.019801980198019802
+    },
+    "window_balanced_accuracy": {
+      "observed": 0.6887254901960784,
+      "null_mean": 0.490843837535014,
+      "p": 0.009900990099009901
+    },
+    "subject_auc": {
+      "observed": 0.888888888888889,
+      "null_mean": 0.4677777777777778,
+      "p": 0.0297029702970297
+    }
+  },
+  "runtime_s": 7860.8
+}
